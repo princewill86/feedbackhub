@@ -1,0 +1,2 @@
+ALTER TABLE "paystack_payments" DROP CONSTRAINT "paystack_payments_invoice_id_unique";--> statement-breakpoint
+ALTER TABLE "paystack_payments" ADD CONSTRAINT "prepaid_payments_provider_invoice_unique" UNIQUE("provider","invoice_id");

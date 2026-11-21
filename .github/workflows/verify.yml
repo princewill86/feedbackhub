@@ -1,0 +1,48 @@
+name: Verify
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  foundation:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: feedbackhub
+          POSTGRES_PASSWORD: feedbackhub
+          POSTGRES_DB: feedbackhub
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U feedbackhub -d feedbackhub"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 10
+    env:
+      DATABASE_URL: postgres://feedbackhub:feedbackhub@localhost:5432/feedbackhub
+      BETTER_AUTH_URL: http://127.0.0.1:5173
+      ORIGIN: http://127.0.0.1:5173
+      TEST_ORIGIN: http://127.0.0.1:5173
+      HOST: 127.0.0.1
+      PORT: 5173
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci
+      - run: npm run check
+      - run: npm run build
+      - run: npm run db:migrate
+      - name: Test the production server
+        run: |
+          export BETTER_AUTH_SECRET="$(openssl rand -hex 32)"
+          node build &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          curl --fail --silent --show-error --retry 15 --retry-connrefused --retry-delay 1 "$TEST_ORIGIN" >/dev/null
+          node --test tests/auth.integration.mjs

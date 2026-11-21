@@ -1,0 +1,1 @@
+ALTER TABLE "feedback_items" ADD COLUMN "published" boolean DEFAULT false NOT NULL;

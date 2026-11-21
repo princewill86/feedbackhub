@@ -1,0 +1,181 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1795266463140,
+      "tag": "0000_cheerful_wilson_fisk",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1795266924049,
+      "tag": "0001_stiff_morbius",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1795266965102,
+      "tag": "0002_stormy_thing",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1795267198595,
+      "tag": "0003_fantastic_leader",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1795267424672,
+      "tag": "0004_steep_spectrum",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1795267754847,
+      "tag": "0005_kind_black_bird",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1795267853248,
+      "tag": "0006_melted_spencer_smythe",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1795268001872,
+      "tag": "0007_sturdy_cloak",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1795268196552,
+      "tag": "0008_concerned_kang",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1795268269174,
+      "tag": "0009_curly_miracleman",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1795268399334,
+      "tag": "0010_tiresome_mole_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1795268495678,
+      "tag": "0011_cultured_stephen_strange",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1795268553523,
+      "tag": "0012_certain_pestilence",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1795268685305,
+      "tag": "0013_right_runaways",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1795268798129,
+      "tag": "0014_dashing_thanos",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1795269763043,
+      "tag": "0015_romantic_retro_girl",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1795269961571,
+      "tag": "0016_tiny_kinsey_walden",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1795270170442,
+      "tag": "0017_violet_wolfsbane",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1795270840590,
+      "tag": "0018_fast_maddog",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1795271022351,
+      "tag": "0019_marvelous_namorita",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1795294965126,
+      "tag": "0020_fresh_psylocke",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1795294984966,
+      "tag": "0021_cuddly_crusher_hogan",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1795295593229,
+      "tag": "0022_far_plazm",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1795295766017,
+      "tag": "0023_dear_morg",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1795295875613,
+      "tag": "0024_salty_veda",
+      "breakpoints": true
+    }
+  ]
+}

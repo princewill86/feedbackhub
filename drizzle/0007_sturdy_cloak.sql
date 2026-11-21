@@ -1,0 +1,1 @@
+ALTER TABLE "workspaces" ADD COLUMN "public_board" boolean DEFAULT false NOT NULL;
