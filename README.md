@@ -129,3 +129,10 @@ Prepaid purchases do not auto-renew. A verified renewal of the same plan extends
 ## Legal pages
 
 Registration and the footer link to `/terms` and `/privacy`. Platform administrators can edit both documents at `/admin/legal`. The included text describes the default installation. Review it before launch and supply the operator identity, contact information, applicable terms, and actual data handling and retention practices.
+
+## Contributing and security
+
+- [Contribution guide](CONTRIBUTING.md)
+- [Code of conduct](CODE_OF_CONDUCT.md)
+- [Security policy and vulnerability reporting](SECURITY.md)
+- [MIT License](LICENSE)
